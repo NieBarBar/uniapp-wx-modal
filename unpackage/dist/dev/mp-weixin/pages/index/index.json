@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "custom-modal": "/components/custom-modal/custom-modal"
+  }
+}
