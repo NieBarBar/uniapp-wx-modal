@@ -1,1 +1,0 @@
-<view class="content"><custom-modal vue-id="8dd740cc-1" bind:__l="__l"></custom-modal><button type="primary" size="mini" data-event-opts="{{[['tap',[['showModal',['$event']]]]]}}" bindtap="__e">showModal</button></view>
