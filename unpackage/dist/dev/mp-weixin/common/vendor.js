@@ -9467,9 +9467,7 @@ internalMixin(Vue);
 /* 27 */,
 /* 28 */,
 /* 29 */,
-/* 30 */,
-/* 31 */,
-/* 32 */
+/* 30 */
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js ***!
   \**********************************************************************************************************/
@@ -9600,7 +9598,7 @@ function normalizeComponent (
 
 
 /***/ }),
-/* 33 */
+/* 31 */
 /*!****************************************************************************!*\
   !*** D:/AllProjects/HBuilderProjects/uniapp-wx-customModal/store/index.js ***!
   \****************************************************************************/
@@ -9616,9 +9614,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 25));
-var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ 34));
-var _getters = _interopRequireDefault(__webpack_require__(/*! ./getters.js */ 35));
-var _modal = __webpack_require__(/*! ./modules/modal.js */ 36);
+var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ 32));
+var _getters = _interopRequireDefault(__webpack_require__(/*! ./getters.js */ 33));
+var _modal = __webpack_require__(/*! ./modules/modal.js */ 34);
 _vue.default.use(_vuex.default);
 var store = new _vuex.default.Store({
   modules: {
@@ -9630,7 +9628,7 @@ var _default = store;
 exports.default = _default;
 
 /***/ }),
-/* 34 */
+/* 32 */
 /*!**************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vuex3/dist/vuex.common.js ***!
   \**************************************************************************************/
@@ -10886,7 +10884,7 @@ module.exports = index_cjs;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ 3)))
 
 /***/ }),
-/* 35 */
+/* 33 */
 /*!******************************************************************************!*\
   !*** D:/AllProjects/HBuilderProjects/uniapp-wx-customModal/store/getters.js ***!
   \******************************************************************************/
@@ -10909,7 +10907,7 @@ var _default = getters;
 exports.default = _default;
 
 /***/ }),
-/* 36 */
+/* 34 */
 /*!************************************************************************************!*\
   !*** D:/AllProjects/HBuilderProjects/uniapp-wx-customModal/store/modules/modal.js ***!
   \************************************************************************************/
@@ -10925,7 +10923,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.showModal = exports.modal = void 0;
 var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/typeof */ 13));
-var _store = _interopRequireDefault(__webpack_require__(/*! store */ 33));
+var _store = _interopRequireDefault(__webpack_require__(/*! store */ 31));
 var modal = {
   state: {
     visible: false,
